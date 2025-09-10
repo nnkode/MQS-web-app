@@ -16,6 +16,12 @@ const animatedTextLines = [
 
 const sponsors = [
   {
+    id: 'colab',
+    name: 'COLAB',
+    logo: '/logo/colab_logo.png',
+    link: 'https://www.colabsoftware.com',
+  },
+  {
     id: 'fmp',
     name: 'FMP',
     logo: '/logo/fmp_logo.png',
@@ -27,12 +33,7 @@ const sponsors = [
     logo: '/logo/cair_logo.png',
     link: 'https://www.mun.ca/research/cair/',
   },
-  {
-    id: 'colab',
-    name: 'COLAB',
-    logo: '/logo/colab_logo.png',
-    link: 'https://www.colabsoftware.com',
-  },
+  
 ];
 
 const advisors = [

@@ -14,9 +14,7 @@ tags:
 summary: "An overview of our in house system, a real-time algorithmic trading bot designed using FMP data, capable of managing multiple portfolios simultaneously through a centralized data architecture."
 ---
 
-![Banner](/article-list/our-trader/hero_placeholder.jpg)
-
-![Financial Chart Banner](placeholder_banner_novatrader.jpg) In the fast-paced world of stock trading, speed, precision, and data management are paramount. MQS Trading Bot is an algorithmic trading bot engineered to operate on the Nasdaq exchange in real-time, leveraging a unified data system to execute trades and manage risk efficiently across multiple portfolios.
+ In the fast-paced world of stock trading, speed, precision, and data management are paramount. MQS Trading Bot is an algorithmic trading bot engineered to operate on the Nasdaq exchange in real-time, leveraging a unified data system to execute trades and manage risk efficiently across multiple portfolios.
 
 ## What is the MQS Trading Bot?
 

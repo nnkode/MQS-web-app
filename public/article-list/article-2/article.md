@@ -13,7 +13,6 @@ tags:
 summary: "An introduction to the world of quantitative finance, exploring what it is, who 'quants' are, the skills required, key areas within the field, and how to get started."
 ---
 
-![Banner](/article-list/article-2/placeholder_banner_quant_finance.jpg)
 
 # Diving Into Quant Finance: Where Math Meets Markets
 
