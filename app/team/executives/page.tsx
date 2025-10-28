@@ -13,38 +13,31 @@ const executiveMember = [
   },
   {
     name: "Ian Anobis",
-    role: "VP and Treasurer",
+    role: "VP Admin",
     linkedin: "https://www.linkedin.com ",
     bio: "My name is Ian, I am a CS student at MUN. I have a Bachelor's degree in Philosophy (Maj.) and Classics (Min.). I have served as an officer with the Royal Canadian Navy. Apart from finance my interests include world history and strategy games.",
     image: "/headshots/ian.jpg",
   },
   {
+    name: "Aaron Crane",
+    role: "Co-VP",
+    linkedin: "https://www.linkedin.com/in/aaroncranee/",
+    bio: "I’m a third-year Computer Engineering major with an interest in low-level programming and hardware systems. I enjoy working with C, Assembly, and direct hardware tools. In my freetime, I train and compete as a powerlifter.",
+    image: "/headshots/aaron.jpg",
+  },
+  {
     name: "Ayesha Ziauddin",
-    role: "Head of Operations",
+    role: "Director of Operations & Co-Director of Website",
     linkedin: "https://www.linkedin.com/in/ayesha-z/ ",
     bio: "My name is Ayesha, I am a 3rd-year CS student at MUN. I am enthusiastic about web development and enjoy reading and sleeping in my downtime.",
     image: "/headshots/ayesha.jpg",
   },
   {
-    name: "Kelvin Fumo",
-    role: "Managing Director - Asset Allocation",
-    linkedin: "https://www.linkedin.com/in/kelvinfumo/ ",
-    bio: "My name is Kelvin, I am a 5th year Business and CS student at MUN. I have experience as an Equity Analyst at the Fund and as a Data Analyst at North Atlantic. I also enjoy Basketball and Motor Racing.",
-    image: "/headshots/kelvin.JPG",
-  },
-  {
     name: "Hameedah Salaam",
-    role: "Lead Developer - Website Pod",
+    role: "Co-VP & Co-Director of Website",
     linkedin: "https://www.linkedin.com/in/hameedah-salaam/ ",
     bio: "My name is Hameedah, I am a fourth year CS student interested in User experience, research and design. I also enjoy scrapbooking and learning",
     image: "/headshots/hameedah.JPG",
-  },
-  {
-    name: "Fariha Mehnaz",
-    role: "Head of Strategic Partnerships",
-    linkedin: "https://www.linkedin.com/in/fariha-mehnaz/ ",
-    bio: "My name is Fariha, I am a 4th year CS student at MUN with strong interests in areas of data science and data security and encryption.",
-    image: "/headshots/fariha.JPG",
   },
   {
     name: "Rimsha Aziz",
@@ -54,46 +47,32 @@ const executiveMember = [
     image: "/headshots/rimsha.JPG",
   },
   {
-    name: "Zoya Zaidi",
-    role: "Managing Director - Active Portfolio",
-    linkedin: "https://www.linkedin.com/in/zoya-zaidi/ ",
-    bio: "My name is Zoya, I am a third year Bachelor of commerce (co-op) student at MUN. Zoya enjoys investing in stocks and actively building her portfolio and applying financial principles in practical settings.",
-    image: "/headshots/zoya.jpg",
-  },
-  {
     name: "Keegan Churchill",
-    role: "Managing Director - Active Portfolio",
+    role: "Co-Director - Portfolio",
     linkedin: "https://www.linkedin.com/in/keegan-churchill-myers-409a79170/ ",
     bio: " ",
     image: "/headshots/keegan.jpg",
   },
   {
     name: "Baasil Sanu",
-    role: "Managing Director - Passive Portfolio",
+    role: "Co-Director - Portfolio",
     linkedin: "https://www.linkedin.com/in/baasilsanu/ ",
     bio: "I am Baasil, a quantitative researcher with experience in intraday trading, simulations, and data-driven modeling in finance and fluid dynamics. I have worked on academic research and practical financial analysis.",
     image: "/headshots/baasil.jpg",
   },
   {
     name: "Nisarg Dave",
-    role: "Managing Director - Passive Portfolio",
+    role: "Co-Director - Portfolio",
     linkedin: "https://www.linkedin.com/in/ndave310/ ",
     bio: "I have a background in neuroscience and data analytics, with research experience in agriculture, genetics, and computational biology. I am interested in behavioural finance and global markets.",
     image: "/headshots/nisarg.jpg",
   },
   {
     name: "Mpundu Chikoya",
-    role: "Managing Director - Asset and Allocation",
+    role: "Co-Director - Asset and Allocation",
     linkedin: "https://www.linkedin.com/in/mpundu-chikoya-bb5aa2258/ ", // Placeholder Link
     bio: "I am a 3rd year Applied Math and Economics major. I have interests in risk management and analysis. For fun, I like to bake and swim.",
     image: "/headshots/mpundu.jpg", // Placeholder Image
-  },
-  {
-    name: "Kamal Ali",
-    role: "Co-Director - Data and Infrastructure",
-    linkedin: "https://www.linkedin.com/in/kamal-awad-ali/ ",
-    bio: "I am a 4th-year Applied Math student with a diploma in Engineering. My primary interests lie in dynamical systems, data science, and physics-informed neural networks.",
-    image: "/headshots/kamal.jpg",
   },
   {
     name: "Koushik Mote",
@@ -102,12 +81,34 @@ const executiveMember = [
     bio: "I am Koushik, a fourth-year Applied Maths and CS student. I am fascinated by differential equations and chaos—both in theory and in life. I also enjoy playing pool and watching thought provoking films.",
     image: "/headshots/koushik.jpg",
   },
+
+  {
+    name: "Kaan Keskindi",
+    role: "Co-Director - Data and Infrastructure",
+    linkedin: "https://www.linkedin.com/in/kaan-keskindil-46a13b256/",
+    bio: "Hi, I’m Kaan, a second year electrical engineering student at MUN. I like trading and I like cats!!",
+    image: "/headshots/kaan.jpg",
+  },
+  {
+    name: "Nikolas Echeverri Urrea",
+    role: "Co-Director - Portfolio",
+    linkedin: "https://www.linkedin.com/in/nikolaseche",
+    bio: "I’m a Master student in Computer Engineering at MUN. I’m currently pursuing research in Molecular Engineering for real-world scientific and quantitative challenges",
+    image: "",
+  },
   {
     name: "William Church",
     role: "Director - External Relations",
     linkedin: "https://www.linkedin.com/in/church-william/ ",
     bio: "I am William, a fourth year Geography student with a passion for economic development, data analysis and visualization. At MQS, I focus on building connections with industry leaders to create opportunities for growth. ",
     image: "/headshots/church.jpg",
+  },
+  {
+    name: "Suryan",
+    role: "Co-Director - Asset Allocation",
+    linkedin: "https://www.linkedin.com/in/suryan-576a7b244/",
+    bio: "",
+    image: "",
   },
 ];
 
@@ -138,7 +139,11 @@ export default function TeamsPage() {
     <>
       <div
         className="heroT"
-        style={{ "--hero-img": `url("/MQF photos/groot.jpg")` } as React.CSSProperties}
+        style={
+          {
+            "--hero-img": `url("/MQF photos/groot.jpg")`,
+          } as React.CSSProperties
+        }
       >
         <div className="heroText">Meet the Executives.</div>
       </div>
@@ -148,7 +153,9 @@ export default function TeamsPage() {
             {filteredTeams.map((team, idx) => (
               <div
                 key={idx}
-                className={`teamCard ${team.role === "President" ? "president-teamCard" : ""}`}
+                className={`teamCard ${
+                  team.role === "President" ? "president-teamCard" : ""
+                }`}
               >
                 <div className="image">
                   <Image src={team.image} alt={team.name} fill />
@@ -172,7 +179,9 @@ export default function TeamsPage() {
                         LinkedIn
                       </a>
                     ) : (
-                      <p className="no-link-text">LinkedIn profile not available</p>
+                      <p className="no-link-text">
+                        LinkedIn profile not available
+                      </p>
                     )}
                   </div>
                 </div>
