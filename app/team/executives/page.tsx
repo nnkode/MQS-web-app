@@ -16,7 +16,7 @@ const executiveMember = [
     role: "VP Admin",
     linkedin: "https://www.linkedin.com ",
     bio: "My name is Ian, I am a CS student at MUN. I have a Bachelor's degree in Philosophy (Maj.) and Classics (Min.). I have served as an officer with the Royal Canadian Navy. Apart from finance my interests include world history and strategy games.",
-    image: "/headshots/ian2.jpg",
+    image: "/headshots/ian2.png",
   },
   {
     name: "Aaron Crane",
