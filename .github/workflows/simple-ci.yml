@@ -26,9 +26,6 @@ jobs:
       - name: Lint code
         run: npm run lint
 
-      - name: Check for unused variables
-        run: npm run lint -- --no-unused-vars
-
       - name: Check Metabase link
         run: |
           echo "Checking Metabase dashboard availability..."
