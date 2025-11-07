@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
 import "../style.css";
 import { portfolioMember, DIRECTOR_ROLES} from "./portfolioMembers";
 function DirectorCard({ member }: { member: typeof portfolioMember[0] }) {
@@ -10,7 +11,7 @@ function DirectorCard({ member }: { member: typeof portfolioMember[0] }) {
   return (
     <div className="teamCard">
       <div className="image">
-        <img src={member.image} alt={member.name} />
+        <Image src={member.image} alt={member.name} />
       </div>
       <div className="details">
         <div className="center">
@@ -38,36 +39,36 @@ function DirectorCard({ member }: { member: typeof portfolioMember[0] }) {
     </div>
   );
 }
-function TeamMemberItem({ member }: { member: typeof portfolioMember[0] }) {
-  if (!member?.name || !member?.role) return null;
-  return (
-    <div className="other-member-item">
-      <h3>{member.name}</h3>
-      <p className="member-role">{member.role}</p>
-      {member.linkedin !== "#" ? (
-        <a
-          href={member.linkedin}
-          className="profile-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      ) : (
-        <span className="no-link-text">Link not available</span>
-      )}
-    </div>
-  );
-}
+// function TeamMemberItem({ member }: { member: typeof portfolioMember[0] }) {
+//   if (!member?.name || !member?.role) return null;
+//   return (
+//     <div className="other-member-item">
+//       <h3>{member.name}</h3>
+//       <p className="member-role">{member.role}</p>
+//       {member.linkedin !== "#" ? (
+//         <a
+//           href={member.linkedin}
+//           className="profile-link"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           LinkedIn
+//         </a>
+//       ) : (
+//         <span className="no-link-text">Link not available</span>
+//       )}
+//     </div>
+//   );
+// }
 
 export default function PortfolioPage() {
   // Filter members using constants and includes method
   const directors = portfolioMember.filter(member =>
     DIRECTOR_ROLES.includes(member.role)
   );
-  const otherMembers = portfolioMember.filter(member =>
-    !DIRECTOR_ROLES.includes(member.role)
-  );
+  // const otherMembers = portfolioMember.filter(member =>
+  //   !DIRECTOR_ROLES.includes(member.role)
+  // );
 
   useEffect(() => {
     const cards = document.querySelectorAll<HTMLElement>(".teamCard");

@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
 import { dataInfraMember, DIRECTOR_ROLES } from "./DIMembers"; //
 
 import "../style.css";
@@ -23,7 +24,7 @@ function DirectorCard({ member }) {
   return (
     <div className="teamCard">
       <div className="image">
-        <img src={member.image} alt={member.name} />
+        <Image src={member.image} alt={member.name} />
       </div>
       <div className="details">
         <div className="center">
@@ -53,31 +54,30 @@ function DirectorCard({ member }) {
   );
 }
 // Component for Other Team Member Items (Exact same as previous example)
-// @ts-expect-error - Added to avoid null error
-function TeamMemberItem({ member }) {
-  if (!member || !member.name || !member.role || !member.linkedin) {
-    console.warn("Missing data for TeamMemberItem:", member);
-    return null;
-  }
-  return (
-    <div className="other-member-item">
-      <h3>{member.name}</h3>
-      <p className="member-role">{member.role}</p>
-      {member.linkedin && member.linkedin !== "#" ? (
-        <a
-          href={member.linkedin}
-          className="profile-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      ) : (
-        <span className="no-link-text">Link not available</span>
-      )}
-    </div>
-  );
-}
+// function TeamMemberItem({ member }) {
+//   if (!member || !member.name || !member.role || !member.linkedin) {
+//     console.warn("Missing data for TeamMemberItem:", member);
+//     return null;
+//   }
+//   return (
+//     <div className="other-member-item">
+//       <h3>{member.name}</h3>
+//       <p className="member-role">{member.role}</p>
+//       {member.linkedin && member.linkedin !== "#" ? (
+//         <a
+//           href={member.linkedin}
+//           className="profile-link"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           LinkedIn
+//         </a>
+//       ) : (
+//         <span className="no-link-text">Link not available</span>
+//       )}
+//     </div>
+//   );
+// }
 // --- Main Page Component ---
 // Renamed component
 export default function DataInfrastructurePage() {
@@ -86,9 +86,9 @@ export default function DataInfrastructurePage() {
     DIRECTOR_ROLES.includes(member.role)
   );
   // Treat everyone else as 'other members'
-  const otherMembers = dataInfraMember.filter(
-    (member) => !DIRECTOR_ROLES.includes(member.role)
-  );
+  // const otherMembers = dataInfraMember.filter(
+  //   (member) => !DIRECTOR_ROLES.includes(member.role)
+  // );
 
   // Intersection Observer for Director Cards Animation
   useEffect(() => {
