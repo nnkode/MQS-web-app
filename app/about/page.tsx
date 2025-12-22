@@ -40,22 +40,10 @@ const sponsors = [
         link: 'https://www.ryco.ca/',
     },
     {
-        id: 'First Atlantic',
-        name: 'First Atlantic Private Wealth',
-        logo: '/logo/first-atlantic.svg',
-        link: 'https://www.firstatlantic.ca/',
-    },
-    {
         id: 'enaimco',
         name: 'enaimco',
         logo: '/logo/enaimco-logo.svg',
         link: 'https://www.enaimco.com/',
-    },
-    {
-        id: 'leGrow',
-        name: 'LeGrows Travel',
-        logo: '/logo/LeGrows-Travel-Logo-White.png',
-        link: 'https://www.legrowstravel.ca/',
     },
 ];
 
