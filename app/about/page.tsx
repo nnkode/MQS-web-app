@@ -22,6 +22,13 @@ const sponsors = [
         link: 'https://www.colabsoftware.com',
     },
     {
+        id: 'pelorus',
+        name: 'PELORUS',
+        logo: '/logo/pelorus.png',
+        link: 'https://www.pelorusvc.com/',
+    },
+
+    {
         id: 'fmp',
         name: 'FMP',
         logo: '/logo/fmp_logo.png',
@@ -34,7 +41,7 @@ const sponsors = [
         link: 'https://www.mun.ca/research/cair/',
     },
     {
-        id: 'ryo',
+        id: 'ryco',
         name: 'Ryo Financial',
         logo: '/logo/logo-orig-white.svg',
         link: 'https://www.ryco.ca/',
@@ -44,6 +51,12 @@ const sponsors = [
         name: 'enaimco',
         logo: '/logo/enaimco-logo.svg',
         link: 'https://www.enaimco.com/',
+    },
+    {
+        id: 'cal_legrow',
+        name: 'CAL_LEGROW',
+        logo: '/logo/callegrow.png',
+        link: 'https://callegrow.com/',
     },
 ];
 
