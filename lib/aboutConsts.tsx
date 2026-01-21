@@ -1,4 +1,3 @@
-import { initialContent } from '@/components/ui/toggleItems/toggleItemTypes';
 
 export const HERO_VIDEO_SRC = '/video/downtown.mp4';
 
@@ -72,9 +71,21 @@ export const advisors = [
     { logo: '/logo/soc_white_logo.png', alt: 'Société Générale' },
 ];
 
+export const initialContent = {
+  "ABOUT US": <div>We&apos;re Memorial University&apos;s premier Quantitative Finance & Trading Society<br /><br />
+  We strongly believe in the talent nurtured here in Newfoundland, and prepare talented students for roles in Trading, Capital markets, and Computer Science.<br />
+  <br /></div>,
+  "PROJECTS": <div>At MQS, we&apos;re all about learning by doing so everyone works on real projects around the year.<br /><br />
+  We&apos;re one of the few student societies around the world to have built our own systematic paper trading infrastructure to trade in real time!</div>,
+  "SPEAKERS & NETWORKING": <div>We&apos;ve hosted speakers with experiences at top firms such as Blackrock & Ontario Teacher&apos;s Pension Plan in the past. We strongly believe in industry exposure. <br /><br />
+  Our members come from diverse backgrounds building practical skills together. We also host socials and networking events twice a semester!</div>,
+  "GET IN TOUCH!": <div>You can click the join us button at the top of the page.<br /><br /> Email us at munquantsociety@gmail.com</div>,
+};
+
 export const panels = [
     { title: 'ABOUT US', img: '/about_page/about_bg.jpg', txt: initialContent['ABOUT US'] },
     { title: 'PROJECTS', img: '/about_page/teams.png', txt: initialContent['PROJECTS'] },
     { title: 'SPEAKERS & NETWORKING', img: '/about_page/contact.jpg', txt: initialContent['SPEAKERS & NETWORKING'] },
     { title: 'GET IN TOUCH!', img: '/about_page/web_hike.png', txt: initialContent['GET IN TOUCH!'] },
 ];
+
